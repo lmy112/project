@@ -1,0 +1,90 @@
+body {
+  background: url("../bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 16px;
+}
+
+a,
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 60rem;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(10, 23, 52, .8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .625rem;
+  border-radius: .3125rem;
+}
+
+button {
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(10, 23, 52, .5);
+  border: none;
+  padding: .3125rem .625rem;
+}
+.member {
+  background-color: rgba(10, 23, 52, .5);
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .625rem 0;
+}
+.form-title {
+  color: white;
+  padding: .3125rem;
+  font-size: 1.2rem;
+}
+.form-group {
+  color: white;
+  font-size: 1.125rem;
+  padding: .625rem 0;
+}
+
+h1.logo {
+  font-size: 1.625rem;
+}
+
+.form-group>input {
+  font-size: 1.125rem;
+}
+.submit {
+  padding: .3125rem 1.875rem;
+  margin-bottom: .625rem;
+}
+
+.click_join,
+.click_join:link,
+.click_join:visited {
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.alert {
+  color: rgb(251, 255, 0);
+  padding: 0;
+}
