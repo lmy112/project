@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/twitch/css/index.css">
+  <title>仿 twitch</title>
+</head>
+
+<body>
+  <div class="twitch">
+    <header class="twitch__header">
+      <h1 class="twitch__header__title">Twitch</h1>
+      <a onclick="changeLang('zh-tw')" class="twitch__header__link">中文</a>
+      <a onclick="changeLang('en')" class="twitch__header__link">English</a>
+    </header>
+    <section class="twitch__content" id="content">
+      <div class="twitch__content__card--placeholder"></div>
+      <div class="twitch__content__card--placeholder"></div>
+    </section>
+
+  </div>
+  <script src="/twitch/js/jquery.min.js"></script>
+  <script src="/twitch/js/lang-en.js"></script>
+  <script src="/twitch/js/lang-zh-tw.js"></script>
+  <script src="/twitch/js/index.js"></script>
+</body>
+
+</html>
