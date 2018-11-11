@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body {
+  font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
+}
+
+.print__navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.jumbotron {
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+
+.header__jumbotron {
+  background-image: url("/print/img/bg_header.jpeg");
+}
+
+.header__jumbotron__container {
+  color: white;
+  padding: 12.5rem 0;
+}
+
+.header__jumbotron__container__description {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+.header__jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+
+.print__section {
+  padding: 50px 0;
+}
+
+.print__section#section_ask {
+  background-color: #ff6e3a;
+}
+
+.print__section#section_ask .ask__img {
+  background-image: url("/print/img/pic_ask.jpg");
+  height: 21.875rem;
+  mix-blend-mode: multiply;
+}
+
+.print__section#section_ask .ask__title {
+  margin: 7.5rem 0;
+}
+
+.print__section#section_story .story__img {
+  width: 130%;
+}
+
+.print__section#section_story .story__img--wrap {
+  height: 13.75rem;
+  overflow: hidden;
+}
+
+.print__section#section_story .story__subtitle {
+  padding: .625rem 0;
+}
+
+.print__section#section_influences {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+
+.print__section#section_influences .influences__map {
+  background-image: url("/print/img/pic_map.gif");
+  background-size: 100% auto;
+  height: 400px;
+}
+
+.print__section#section_influences .influences__map .influences__map--cross {
+  position: absolute;
+  left: 23%;
+  top: 40%;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.print__section#section_influences .influences__desertion i {
+  font-size: 40px;
+}
+
+.print__section#section_influences .influences__features {
+  margin: 2.5rem 0;
+}
+
+.print__section#section_future img {
+  width: 100%;
+}
+
+.print__section#section_future i {
+  font-size: 1.875rem;
+}
+
+.print__section#section_future .feature {
+  padding-top: .625rem;
+  padding-bottom: .625rem;
+}
+
+.footer__jumbotron {
+  background-image: url("/print/img/bg_footer.jpeg");
+}
+
+.footer__jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+}
+
+.footer__jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+/*# sourceMappingURL=index.css.map */
