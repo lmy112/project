@@ -1,14 +1,24 @@
+let $ = require('jquery')
+let I18N = {
+  en: require('./lang-en'),
+  'zh-tw': require('./lang-zh-tw')
+}
 let nowIndex = 0
 let isLoading = false
 let LANG = 'zh-tw'
 
-function changeLang(lang) {
-  $('.twitch__header__title').text(window.I18N[lang]['title'])
+let changeLang = (lang) => {
+  $('.twitch__header__title').text(I18N[lang]['title'])
   LANG = lang
   $('.twitch__content').empty()
   appendData(LANG)
 }
-
+$('.change_en').click(() => {
+  changeLang('en')
+})
+$('.change_tw').click(() => {
+  changeLang('zh-tw')
+})
 let getData = (lang, callback) => {
   let clientId = 'g52o5obmxfx9fjsr6w33tfepar7vc5'
   let game = 'League%20of%20Legends'
@@ -34,10 +44,10 @@ let appendData = (lang) => {
     isLoading = false
   })
 }
-$(document).ready(function () {
+$(document).ready(() => {
   appendData(LANG)
 })
-$(window).scroll(function () {
+$(window).scroll(() => {
   if ($(window).scrollTop() + $(window).height() >= $(document).height() - 600) {
     if (!isLoading) {
       appendData(LANG)
