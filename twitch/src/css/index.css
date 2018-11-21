@@ -19,7 +19,7 @@ a:visited {
 }
 
 body {
-  background: url("/twitch/img/bg-twich.jpg") no-repeat center center;
+  background: url("../../img/bg-twich.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
