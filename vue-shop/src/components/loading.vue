@@ -1,6 +1,6 @@
 <template>
   <div class="loading">
-    <img src="../assets/images/logo.svg" class="rotation" alt="logoLoading" height="100">
+    <img src="../assets/img/logo.svg" class="rotation" alt="logoLoading" height="100">
   </div>
 </template>
 

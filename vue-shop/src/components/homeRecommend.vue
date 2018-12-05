@@ -48,7 +48,7 @@ export default {
   created() {
     this.isLoading = true;
     this.$axios
-      .get("https://blooming-beach-52575.herokuapp.com/desserts")
+      .get('desserts')
       .then(res => {
         this.shopDesserts = res.data
         this.isLoading=false
@@ -94,6 +94,7 @@ export default {
 
   &:hover {
     background-color: lighten($primaryColor, 50%);
+    color: lighten($primaryColor, 10%);
   }
 }
 

@@ -4,8 +4,8 @@
     <home-topic></home-topic>
     <home-info></home-info>
     <div class="container my-5">
-      <img src="../assets/images/home__info__res.svg" alt="res" width="88" class="d-none d-sm-block img-fluid m-auto">
-      <img src="../assets/images/sm-res.svg" alt="res" width="250" class="d-block d-sm-none m-auto img-fluid">
+      <img src="../assets/img/home__info__res.svg" alt="res" width="88" class="d-none d-sm-block img-fluid m-auto">
+      <img src="../assets/img/sm-res.svg" alt="res" width="250" class="d-block d-sm-none m-auto img-fluid">
     </div>
     <home-recommend></home-recommend>
   </div>

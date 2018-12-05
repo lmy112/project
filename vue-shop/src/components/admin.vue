@@ -19,7 +19,7 @@ export default {
     return {};
   },
   mounted() {
-    if (!this.user.isLogin) {
+    if (this.user.u_id !== "KOKDWEDOJOCO3") {
       this.$router.push("login");
     }
   },

@@ -55,7 +55,7 @@ export default {
         z-index: -1;
         top: 0;
         left: 0;
-        background-image: url("../assets/images/topic__today.jpeg");
+        background-image: url("../assets/img/topic__today.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -79,7 +79,7 @@ export default {
         z-index: -1;
         top: 0;
         left: 0;
-        background-image: url("../assets/images/topic__hot.jpeg");
+        background-image: url("../assets/img/topic__hot.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -104,7 +104,7 @@ export default {
         z-index: -1;
         top: 0;
         left: 0;
-        background-image: url("../assets/images/topic__new.jpeg");
+        background-image: url("../assets/img/topic__new.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;

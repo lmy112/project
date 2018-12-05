@@ -31,7 +31,7 @@
                   <div class="input-group-prepend">
                     <button class="btn btn-outline-secondary btn--count" type="button" @click="substract(item.id-1)">-</button>
                   </div>
-                  <input :value="item.count" type="text" class="form-control text-center input-num" ref="numbox"
+                  <input :value="item.count" type="text" class="form-control text-center" ref="numbox"
                     @change="updateNum(item.id-1)" readonly>
                   <div class="input-group-append">
                     <button class="btn btn-outline-secondary btn--count" type="button" @click="increase(item.id-1)">+</button>
@@ -42,8 +42,8 @@
                 <h5 class="product-price text-right">${{item.amount}}</h5>
               </div>
               <div class="col-sm-12 col-md text-right d-none d-sm-block">
-                <button class="btn" type="button" @click="remove(item.id-1)"><img src="../assets/images/ic-delete.svg"
-                    alt="delete"></button>
+                <a href="#"><button class="btn" type="button" @click="remove(item.id-1)"><img src="../assets/img/ic-delete.svg"
+                    alt="delete"></button></a>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default {
   created() {
     this.isLoading = true;
     this.$axios
-      .get("https://blooming-beach-52575.herokuapp.com/desserts")
+      .get('desserts')
       .then(res => {
         this.shopDesserts = res.data;
         this.isLoading = false;
@@ -201,7 +201,7 @@ export default {
   }
 }
 
-.input-num {
-  background-color: #fff;
-}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff
+    ;}
 </style>

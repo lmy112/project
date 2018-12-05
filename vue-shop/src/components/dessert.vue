@@ -120,7 +120,7 @@
     created() {
       this.isLoading = true;
       this.$axios
-        .get("https://blooming-beach-52575.herokuapp.com/desserts")
+        .get('desserts')
         .then(res => {
           this.shopDesserts = res.data;
           this.isLoading = false;
@@ -139,7 +139,7 @@
 
   .jumbotron {
     height: 31.25rem;
-    background: url("../assets/images/dessert-header.jpeg") no-repeat center center;
+    background: url("../assets/img/dessert-header.jpeg") no-repeat center center;
     background-size: cover;
   }
 
@@ -156,9 +156,11 @@
     font-size: 1.25rem;
   }
 
-  .list-group-item.active {
+  .list-group-item.active,
+  .list-group-item-action:hover, {
     background-color: lighten($primaryColor, 60%);
     border-color: lighten($primaryColor, 60%);
+    color:$primaryColor;
   }
 
   .product-img {
@@ -191,6 +193,7 @@
 
     &:hover {
       background-color: lighten($primaryColor, 50%);
+      color:$primaryColor;
     }
   }
 

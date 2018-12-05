@@ -11,19 +11,33 @@ const LS = {
     window.localStorage.setItem(item, JSON.stringify(data))
   }
 }
+const SS = {
+  load (item) {
+    return JSON.parse(window.sessionStorage.getItem(item)) || []
+  },
+  save (item, data) {
+    window.sessionStorage.setItem(item, JSON.stringify(data))
+  }
+}
 
 const store = new Vuex.Store({
   strict: true,
   state: {
     cart: LS.load('cart'),
-    user: LS.load('user')
+    user: SS.load('user')
   },
   mutations: {
     setUserData (state, userData) {
       state.user.account = userData.account
       state.user.password = userData.password
+      state.user.u_id = userData.u_id
       state.user.isLogin = userData.isLogin
-      LS.save('user', state.user)
+      if (userData.u_id) {
+        state.user.push(userData)
+      } else if (userData.u_id === '') {
+        state.user.pop(userData)
+      }
+      SS.save('user', state.user)
     },
     addToCart (state, buyInfo) {
       let flag = false
@@ -90,7 +104,11 @@ const store = new Vuex.Store({
   },
   getters: {
     isLogin: state => {
-      return state.user.isLogin
+      let isLogin = false
+      state.user.forEach(item => {
+        isLogin = item.isLogin
+      })
+      return isLogin
     },
     getAllCount (state) {
       let num = 0
