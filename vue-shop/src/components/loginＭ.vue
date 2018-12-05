@@ -6,10 +6,10 @@
           <div class="py-4 container">
             <h1 class="my-0 pt-4 pb-md-5 login__title">會員登入</h1>
             <div class="card-body row  d-sm-none">
-              <button class="btn btn-light col"><img src="../assets/images/ic-facebook-logotype.svg" alt="fb-link"
+              <button class="btn btn-light col"><img src="../assets/img/ic-facebook-logotype.svg" alt="fb-link"
                   height="10"></button>
-              <button class="btn btn-light col mx-1"><img src="../assets/images/ic-google.svg" alt="fb-link" height="10"></button>
-              <button class="btn btn-light col"><img src="../assets/images/ic-yahoo.svg" alt="fb-link" height="10"></button>
+              <button class="btn btn-light col mx-1"><img src="../assets/img/ic-google.svg" alt="fb-link" height="10"></button>
+              <button class="btn btn-light col"><img src="../assets/img/ic-yahoo.svg" alt="fb-link" height="10"></button>
             </div>
             <div class="form-group row mx-2 justify-content-center">
               <label for="email" class="col-2 col-form-label label--bg py-3"><i class="fa fa-user"></i></label>
@@ -30,11 +30,11 @@
         <div class="card text-center">
           <div class="card-body pb-5">
             <h4 class="card-title py-2">—— 連結社群帳號 ——</h4>
-            <button class="btn btn-light py-3 btn-block"><img src="../assets/images/ic-facebook-logotype.svg" alt="fb-link"
+            <button class="btn btn-light py-3 btn-block"><img src="../assets/img/ic-facebook-logotype.svg" alt="fb-link"
                 width="108"></button>
-            <button class="btn btn-light py-3 btn-block my-4"><img src="../assets/images/ic-google.svg" alt="fb-link"
+            <button class="btn btn-light py-3 btn-block my-4"><img src="../assets/img/ic-google.svg" alt="fb-link"
                 width="94"></button>
-            <button class="btn btn-light py-3 btn-block"><img src="../assets/images/ic-yahoo.svg" alt="fb-link" width="97"></button>
+            <button class="btn btn-light py-3 btn-block"><img src="../assets/img/ic-yahoo.svg" alt="fb-link" width="97"></button>
           </div>
         </div>
       </div>

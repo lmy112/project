@@ -85,22 +85,22 @@ const router = new Router({
     }
   ]
 })
-
-router.beforeEach(async (to, from, next) => {
-  if (to.matched.some(record => record.meta.requiresAuth)) {
-    let isLogin = true
-    if (!isLogin) {
+router.beforeEach((to, from, next) => {
+  let user = window.sessionStorage.getItem('user')
+  if (to.meta.requireAuth) {
+    if (user) {
+      next()
+    } else {
       next({
         path: '/login',
         query: {
           redirect: to.fullPath
         }
       })
-    } else {
-      next()
     }
   } else {
     next()
   }
 })
+
 export default router

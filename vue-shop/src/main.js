@@ -8,7 +8,6 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import navbar from './components/navbar.vue'
 import shopFooter from './components/shopFooter.vue'
-import fontAwesome from 'font-awesome/scss/font-awesome.scss'
 import Axios from 'axios'
 Vue.prototype.$axios = Axios
 Axios.defaults.baseURL = 'https://blooming-beach-52575.herokuapp.com/'
@@ -18,10 +17,10 @@ Vue.component('shopFooter', shopFooter)
 
 Vue.config.productionTip = false
 /* eslint-disable no-new */
+
 new Vue({
   el: '#app',
   store,
-  fontAwesome,
   router,
   components: {
     App

@@ -12,7 +12,7 @@
           <p> 是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
         </div>
         <div class="info__title do__title col-12 col-md-4">
-          <img src="../assets/images/home_info_do.svg" alt="info__title" class="img-fluid" width="88">
+          <img src="../assets/img/home_info_do.svg" alt="info__title" class="img-fluid" width="88">
         </div>
       </div>
     </section>
@@ -28,7 +28,7 @@
           <p> 是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
         </div>
         <div class="info__title why__title col-12 col-md-4">
-          <img src="../assets/images/home__info_why.svg" alt="info__title" class="img-fluid" width="88">
+          <img src="../assets/img/home__info_why.svg" alt="info__title" class="img-fluid" width="88">
         </div>
       </div>
     </section>
@@ -36,7 +36,7 @@
     <section class="home__info--sm container-fluid d-block d-sm-none">
       <div class="row info--sm">
         <div class="info__title--sm do__title--sm col-12 mb-3">
-          <img src="../assets/images/sm-do.svg" alt="info__title" class="img-fluid" width="200">
+          <img src="../assets/img/sm-do.svg" alt="info__title" class="img-fluid" width="200">
         </div>
         <div class="info__img--sm do__img--sm col-12">
         </div>
@@ -52,7 +52,7 @@
     <section class="home__info--sm container-fluid d-block d-sm-none">
       <div class="row justify-content-between info--sm">
         <div class="info__title--sm why__title--sm col-12 my-3">
-          <img src="../assets/images/sm-why.svg" alt="info__title" class="img-fluid" width="200">
+          <img src="../assets/img/sm-why.svg" alt="info__title" class="img-fluid" width="200">
         </div>
         <div class="info__img--sm why__img--sm  col-12">
         </div>
@@ -111,11 +111,11 @@ export default {
 }
 
 .do__img {
-  background-image: url("../assets/images/home__info1.jpeg");
+  background-image: url("../assets/img/home__info1.jpeg");
   left: 12.5rem;
   &--sm {
     height: 22.5rem;
-    background-image: url("../assets/images/home__info1.jpeg");
+    background-image: url("../assets/img/home__info1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -123,11 +123,11 @@ export default {
 }
 
 .why__img {
-  background-image: url("../assets/images/cart-product.jpeg");
+  background-image: url("../assets/img/cart-product.jpeg");
   right: 12.5rem;
   &--sm {
     height: 22.5rem;
-    background-image: url("../assets/images/cart-product.jpeg");
+    background-image: url("../assets/img/cart-product.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
