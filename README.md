@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+#  Portfolio
 
-You can use the [editor on GitHub](https://github.com/lmybs112/project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## 仿 Twitch [DEMO](https://www.lmy112.ml/twitch/dist/) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- 串接 Twitch API 取得直播頻道
 
-### Markdown
+- 使用 Gulp 編譯及壓縮scss、es6
+- 使用 Webpack，將 JavaScript 檔打包成一個bundle.js
+- 無限滾動
+- i18n 提供按鈕切換語言（中文/英文）
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![image](https://media.giphy.com/media/MSh5E2HSpZoPE1DkwE/giphy.gif)
 
-```markdown
-Syntax highlighted code block
+![無限滾動](https://media.giphy.com/media/1ykiT9PjkbTUMlTOrF/200w_d.gif)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lmybs112/project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
