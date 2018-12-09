@@ -1,7 +1,7 @@
 #  Portfolio
 
 ## 會員留言板 [DEMO](http://www.lmybs112.ml/board/index.php) 
-![Imgur](https://i.imgur.com/MITtu5j.png)
+![Imgur](https://i.imgur.com/g7U1dNC.png)
 ## 仿 Twitch [DEMO](https://www.lmy112.ml/twitch/dist/) 
 
 - 串接 Twitch API 取得直播頻道
