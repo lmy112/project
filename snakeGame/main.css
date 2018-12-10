@@ -1,0 +1,11 @@
+.map {
+    width: 800px;
+    height: 600px;
+    background-color:skyblue;
+    position: relative;
+    margin: 0 auto;
+}
+h1{
+    color: dimgray;
+    text-align: center;
+}
