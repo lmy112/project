@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>貪食蛇</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>貪食蛇</h1>
+    <div class="map"></div>
+    <script src="food.js"></script>
+    <script src="snake.js"></script>
+    <script src="game.js"></script>
+    <script>
+        //創建遊戲對象
+        let gm = new Game(document.querySelector(".map"));
+        //遊戲初始化--開始遊戲
+        gm.init();
+    </script>
+</body>
+</html>
