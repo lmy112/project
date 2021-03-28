@@ -1,15 +1,15 @@
 #  Portfolio
 
-## print [DEMO](https://www.lmy112.ml/print/)
+## print
 ![Imgur](https://i.imgur.com/EFy3Abm.jpg)
 
-## 貪食蛇 [DEMO](https://www.lmy112.ml/snakeGame/) 
+## 貪食蛇
 ![Imgur](https://i.imgur.com/emY3rh0.png)
 
-## 會員留言板 [DEMO](http://www.lmybs112.ml/board/index.php) 
+## 會員留言板
 ![Imgur](https://i.imgur.com/g7U1dNC.png)
 
-## 仿 Twitch [DEMO](https://www.lmy112.ml/twitch/dist/) 
+## 仿 Twitch
 - 串接 Twitch API 取得直播頻道
 
 - 使用 Gulp 編譯及壓縮scss、es6
@@ -21,5 +21,5 @@
 
 ![無限滾動](https://media.giphy.com/media/1ykiT9PjkbTUMlTOrF/200w_d.gif)
 
-## todoList [DEMO](https://www.lmy112.ml/todoList/) 
+## todoList
 ![Imgur](https://i.imgur.com/BJYZKeJ.jpg)
