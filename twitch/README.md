@@ -1,6 +1,5 @@
 # 仿 Twitch 
 
-## [DEMO](https://www.lmy112.ml/twitch/dist/) 
 - 串接 Twitch API 取得直播頻道
 
 - 使用 Gulp 編譯及壓縮scss、es6
